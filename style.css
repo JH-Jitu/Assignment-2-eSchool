@@ -71,7 +71,7 @@ body{
 .icon-card-title{
     text-align: center;
 }
-justify-content-sm-center{
+.justify-content-sm-center{
     align-items: center;
     align-content: center;
     text-align: center;
@@ -79,10 +79,8 @@ justify-content-sm-center{
 .card{
     border: 1px rgb(238, 227, 227) solid;
     border-radius: 15px;
-    padding: 10px;
-
+    padding: 15px;
 }
-
 .buy-course{
     text-decoration: none;
     text-align: center;
@@ -117,10 +115,11 @@ ol{
 .card-footer{
     border: none;
     background-color: white;
+    
 }
-.img2{
-    width: 35px;
+.img2-icon{
+    width: 20px;
 }
-.res2{
-    margin-left: 65px;
+.seats{
+    margin-left: 30%;
 }
