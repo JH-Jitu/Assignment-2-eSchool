@@ -63,14 +63,13 @@ body{
 .card{
     border: 1px rgb(238, 227, 227) solid;
     border-radius: 15px;
-    padding: 15px;
 }
 .buy-course{
     text-decoration: none;
     text-align: center;
     align-content: center;
     background-image: linear-gradient(to bottom, rgb(88, 57, 99), rgb(27, 14, 39));
-    padding: 5px 10px;
+    padding: 2px 5px;
     border-radius: 20px;
     color: white;
     border: none;
@@ -95,12 +94,6 @@ li{
 li:hover{
     color: rgb(231, 210, 210);
 }
-.small-icon {
-    padding: 2px;
-}
-.small-icon img{
-    padding: 5px !important;
-}
 .card-footer{
     border: none;
     background-color: white;
@@ -115,7 +108,7 @@ li:hover{
     width: 20px;
 }
 .seats{
-    margin-left: 30%;
+    margin-left: 60px;
 }
 .library img{
     width: 350px;
