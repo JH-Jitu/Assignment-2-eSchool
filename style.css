@@ -17,10 +17,13 @@ body{
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(to bottom, rgb(88, 57, 99), rgb(27, 14, 39));
-    padding: 7px 14px;
+    padding: 5px 10px;
     width: 80px;
-    border-radius: 20px;
+    border-radius: 18px;
     color: white !important;
+}
+.link-button:hover{
+    background-image: linear-gradient(to bottom, rgb(38, 22, 44), rgb(5, 0, 10));
 }
 .illustration-section{
    padding-left: 10px;
@@ -35,24 +38,7 @@ body{
     cursor: pointer;
     padding: 9px;
 }
-.carousel-indicators li{
-    width: 15px;
-    height: 8px;
-    background-color: rgb(130, 130, 190);
-    background-image: linear-gradient(to bottom, rgb(88, 57, 99), rgb(27, 14, 39));
-    border: 1px #fceae8 solid;
-    border-radius: 5px;    
-}
 
-.carousel-indicators li.active{
-    width: 30px;
-    height: 8px;
-    background-color: darkblue;
-}
-
-.carousel-control-next, .carousel-control-prev{
-    width: 10px;
-}
 
 .card-2{
     box-shadow: 3px 8px 15px rgb(194, 173, 173);
@@ -71,15 +57,11 @@ body{
 .icon-card-title{
     text-align: center;
 }
-.justify-content-sm-center{
-    align-items: center;
-    align-content: center;
-    text-align: center;
-}
+
 .card{
     border: 1px rgb(238, 227, 227) solid;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
 }
 .buy-course{
     text-decoration: none;
@@ -100,6 +82,12 @@ body{
 }
 ol{
     list-style: none;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(231, 210, 210);
 }
 .small-icon {
     padding: 2px;
@@ -122,4 +110,49 @@ ol{
 }
 .seats{
     margin-left: 30%;
+}
+.library img{
+    width: 400px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 10px 20px rgb(216, 203, 211);
+}
+.creativity img{
+    width: 400px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 5px 10px 20px rgb(216, 203, 211);
+}
+.learning{
+    background-image: url(images/learning.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    color: white;
+}
+.sign-in{
+    background-image: url(images/notebook.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
+
+.carousel-indicators li{
+    width: 15px;
+    height: 8px;
+    background-color: rgb(130, 130, 190);
+    background-color: darkblue;
+    border: 1px #fceae8 solid;
+    border-radius: 5px;    
+}
+
+.carousel-indicators li.active{
+    width: 30px;
+    height: 8px;
+    background-color: darkblue;
 }
