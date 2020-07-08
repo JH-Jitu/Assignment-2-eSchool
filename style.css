@@ -107,6 +107,9 @@ justify-content-sm-center{
 ol{
     list-style: none;
 }
+.small-icon {
+    padding: 2px;
+}
 .small-icon img{
-    padding: 10px !important;
+    padding: 5px !important;
 }
