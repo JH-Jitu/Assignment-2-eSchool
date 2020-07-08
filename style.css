@@ -21,6 +21,8 @@ body{
     width: 80px;
     border-radius: 18px;
     color: white !important;
+    border: none;
+    text-align: center;
 }
 .link-button:hover{
     background-image: linear-gradient(to bottom, rgb(38, 22, 44), rgb(5, 0, 10));
@@ -71,6 +73,10 @@ body{
     padding: 5px 10px;
     border-radius: 20px;
     color: white;
+    border: none;
+}
+.buy-course:hover{
+    background-image: linear-gradient(to bottom, rgb(50, 29, 58), rgb(11, 0, 22));
 }
 .dark-blue-bg{
     background-color: #130325;
@@ -112,13 +118,13 @@ li:hover{
     margin-left: 30%;
 }
 .library img{
-    width: 400px;
+    width: 350px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 5px 10px 20px rgb(216, 203, 211);
 }
 .creativity img{
-    width: 400px;
+    width: 350px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     box-shadow: 5px 10px 20px rgb(216, 203, 211);
