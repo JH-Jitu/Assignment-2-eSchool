@@ -76,17 +76,7 @@ justify-content-sm-center{
     align-content: center;
     text-align: center;
 }
-.card{
-    border: 1px rgb(238, 227, 227) solid;
-    border-radius: 15px;
-    padding: none;
-    padding-right: 10px;
 
-}
-.card img{
-    padding: 20px;
-    padding-right: 10px;
-}
 .buy-course{
     text-decoration: none;
     text-align: center;
