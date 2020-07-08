@@ -79,7 +79,7 @@ body{
 .card{
     border: 1px rgb(238, 227, 227) solid;
     border-radius: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 .buy-course{
     text-decoration: none;
